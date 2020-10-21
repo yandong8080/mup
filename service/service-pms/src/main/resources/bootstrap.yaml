@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848 # Nacos服务配置中心地址
+        file-extension: yaml # 指定yaml格式的配置
+        namespace: efc41f42-6816-4483-90b5-fde2f89ef6e4 # 命名空间ID
+        shared-dataids: datasource.yaml # 配置多个共享的配置
+        refreshable-dataids: datasource.yaml # 指定需要自动刷新的配置
+  application:
+    name: service-pms

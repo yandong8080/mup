@@ -14,7 +14,7 @@ import java.util.Date;
 @Getter
 @Setter
 @Entity
-@Table(name = "pms_disp_ord_rls")
+@Table(name = "mes_disp_ord_rls")
 public class DispOrdRls {
 
     @Id

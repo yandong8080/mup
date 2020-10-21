@@ -18,7 +18,7 @@ import java.util.List;
 @Api(tags = "集团调度指令管理")
 @RestController
 @RequestMapping("/pms/dispordrls")
-@CrossOrigin
+//@CrossOrigin
 public class DispOrdRlsController {
 
     @Autowired

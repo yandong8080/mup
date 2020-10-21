@@ -16,7 +16,7 @@ import java.util.List;
 @Api(tags = "煤矿调度指令管理")
 @RestController
 @RequestMapping("/mes/dispordrls")
-@CrossOrigin
+//@CrossOrigin
 public class DispOrdRlsController {
 
     @Autowired
